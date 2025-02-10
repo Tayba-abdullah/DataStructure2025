@@ -1,0 +1,14 @@
+from collections import deque
+
+random_mammals_queue = deque()
+
+print("\nQueue Operations:")
+random_mammals_queue.append("Elephant") 
+random_mammals_queue.append("Tiger")   
+
+print("Queue:", list(random_mammals_queue))
+
+dequeued_item = random_mammals_queue.popleft() 
+print("Dequeued:", dequeued_item)
+
+print("Queue after dequeuing:", list(random_mammals_queue))
