@@ -1,0 +1,22 @@
+
+stack = []
+
+
+stack.append(10)  # Push 10 onto the stack
+stack.append(20)  # Push 20 onto the stack
+print("Stack:", stack)
+
+
+stack.append(30)  # Push 30 onto the stack
+stack.append(40)  # Push 40 onto the stack
+
+print("Stack after pushing more items:", stack)
+
+top_item = stack[-1] if stack else None 
+print("Peek:", top_item)
+
+
+popped_item = stack.pop() 
+print("Popped:", popped_item)
+
+print("Stack after popping:", stack)
