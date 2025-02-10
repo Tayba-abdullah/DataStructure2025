@@ -2,7 +2,7 @@
 print("\nArray Operations:")
 array = Array(4)
 
-car_brands = ["Toyota", "Ford", "Honda", "Chevrolet", "Nissan"]
+car_brands = ["Toyota", "Ford", "Honda", "Chevrolet"]
 
 array.set_value(0, car_brands[0])  # Set index 0 to "Toyota"
 array.set_value(1, car_brands[1])  # Set index 1 to "Ford"
