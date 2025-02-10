@@ -1,0 +1,19 @@
+# Array Operations with laptop brand names
+print("\nArray Operations:")
+array = Array(5)
+
+laptop_brands = ["Dell", "HP", "Apple", "Lenovo", "Asus"]
+
+
+array.set_value(0, laptop_brands[0]) 
+array.set_value(1, laptop_brands[1])
+array.set_value(2, laptop_brands[2]) 
+array.set_value(3, laptop_brands[3]) 
+array.set_value(4, laptop_brands[4]) 
+
+
+array.display()
+
+
+value_at_index_1 = array.get_value(1) 
+print("Value at index 1:", value_at_index_1)
