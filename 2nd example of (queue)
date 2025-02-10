@@ -1,0 +1,17 @@
+from collections import deque
+
+scientists_queue = deque()
+
+print("\nQueue Operations:")
+scientists_queue.append("Einstein")  
+scientists_queue.append("Curie")    
+
+print("Queue:", list(scientists_queue))
+
+
+scientists_queue.append("Newton")     
+scientists_queue.append("Hawking")    
+print("Queue after adding more scientists:", list(scientists_queue))
+
+dequeued_item = scientists_queue.popleft()  
+print("Dequeued:", dequeued_item)
