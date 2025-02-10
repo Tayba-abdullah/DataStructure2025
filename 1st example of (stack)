@@ -1,0 +1,13 @@
+
+stack = []
+
+stack.append("Alice")  
+stack.append("Bob")    
+
+print("Stack:", stack)
+
+popped_item = stack.pop()
+print("Popped:", popped_item)
+
+
+print("Stack after popping:", stack)
