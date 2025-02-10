@@ -1,0 +1,15 @@
+#array list of car brands
+print("\nArray Operations:")
+array = Array(4)
+
+car_brands = ["Toyota", "Ford", "Honda", "Chevrolet", "Nissan"]
+
+array.set_value(0, car_brands[0])  # Set index 0 to "Toyota"
+array.set_value(1, car_brands[1])  # Set index 1 to "Ford"
+array.set_value(2, car_brands[2])  # Set index 2 to "Honda"
+array.set_value(3, car_brands[3])  # Set index 3 to "Chevrolet"
+
+array.display()
+
+value_at_index_2 = array.get_value(2)
+print("Value at index 2:", value_at_index_2)
