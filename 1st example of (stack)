@@ -1,4 +1,4 @@
-
+#stack using list of name
 stack = []
 
 stack.append("Alice")  
